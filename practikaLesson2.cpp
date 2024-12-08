@@ -15,7 +15,13 @@ int mm(const vector<int>& mas) {
 }
 
 int main() {
-	vector<int> mas = {3, 5, 2, 1, 7, 9};
+	int n, ind;
+	cin >> n;
+	vector<int> mas;
+	for (int i = 0; i < n; ++i) {
+		cin >> ind;
+		mas.push_back(ind);
+	}
 	cout << mm(mas);
 	return 0;
 }
