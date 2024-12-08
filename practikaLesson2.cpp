@@ -7,7 +7,7 @@ using namespace std;
 int mm(const vector<int>& mas) {
 	int imax = mas[0];
 	for (int i = 1; i < mas.size(); ++i) {
-		if (imax < mas[i]){
+		if (imax > mas[i]){
 			imax = mas[i];
 		}
 	}
